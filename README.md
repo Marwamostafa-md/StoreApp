@@ -1,16 +1,47 @@
-# storeapp
+# StoreApp
 
-A new Flutter project.
+A Flutter-based store application demonstrating Clean Architecture, state management with BLoC, and local caching with SQLite.
 
-## Getting Started
+## 📋 Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Features](#features)  
+- [Prerequisites](#prerequisites)  
+- [Getting Started](#getting-started)  
+- [Architecture](#architecture)  
+- [Folder Structure](#folder-structure)  
+- [Running Tests](#running-tests)  
+- [License](#license)  
+- [Contact](#contact)  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Product Listing**: Display products fetched from a remote API.  
+- **Local Caching**: Store favorite products locally using Room/SQLite.  
+- **Error Handling**: Show friendly messages on network failure or data errors.  
+- **Clean UI**: Responsive UI with Material Design widgets.  
+- **State Management**: Business logic handled via BLoC/Cubit.  
+
+---
+
+## 🔧 Prerequisites
+
+- Flutter SDK 3.x or above  
+- Android Studio or Visual Studio Code  
+- A running REST API endpoint for product data (or mock server)  
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Marwamostafa-md/StoreApp.git
+   cd StoreApp
+2.Install dependencies
+  flutter pub get
+ 3.Configure your API endpoint
+  static const String baseUrl = 'https://your-api.com';Add commentMore actions
+4.Run the app
+  flutter run
