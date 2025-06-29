@@ -18,7 +18,7 @@ A Flutter-based store application demonstrating Clean Architecture, state manage
 ## ✨ Features
 
 - **Product Listing**: Display products fetched from a remote API.  
-- **Local Caching**: Store favorite products locally using Room/SQLite.  
+- **Local Caching**: Cache product data locally using Room/SQLite.  
 - **Error Handling**: Show friendly messages on network failure or data errors.  
 - **Clean UI**: Responsive UI with Material Design widgets.  
 - **State Management**: Business logic handled via BLoC/Cubit.  
